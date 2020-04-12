@@ -71,7 +71,7 @@ header {
 
 /*-----body image styling-----*/
 body {
-	background-image: url(../images/bg.png);
+	background-color: black;
 	background-attachment: fixed;
 	background-position: center;
 	max-width: 100%;
