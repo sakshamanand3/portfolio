@@ -10,6 +10,7 @@
 
 
 /*-----header styling-----*/
+
 header {
 	background-color: #121616;
 	height: 95px;
@@ -20,7 +21,9 @@ header {
 	top: 0;
 	opacity: 0.98;
 	z-index: 1;
+	
 }
+
 
 
 
@@ -28,8 +31,9 @@ header {
 
 /*-----nav element inside header styling-----*/
 
-.nav-h ul {
+.nav-h {
 
+display: block;
 	
 }
 
@@ -43,7 +47,8 @@ header {
   list-style: none;
   padding-right: 25px;
   padding-left: 25px;
-  padding-top: 30px;	
+  padding-top: 30px;
+  font-size: 22px;	
 }
 
 
@@ -124,6 +129,8 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 	font-family: Montserrat;
+	padding-right: 20%;
+	padding-left: 20%;
 
 
 
@@ -473,6 +480,8 @@ a.nav-link {
 
 	padding-right: 20%;
 
+	text-align: center;
+
 
 }
 
@@ -510,6 +519,7 @@ a.nav-link {
 	padding-bottom: 15%;
 
 
+
 }
 
 
@@ -521,47 +531,123 @@ a.nav-link {
 /*-----------------------------desktop media query----------------------*/
 
 
-@media  (min-width: 1000px) {
+@media (max-width: 600px) {
 
 	
+	.nav-h {
+
+		display: block !important;
+		font-size: 16px;
+		height: auto;
+
+
+	}
 
 	header {
+
 	background-color: #121616;
-	height: 120px;
+	height: 290px;
 	width: 100%;
+	text-align: center;
+	color: white;
+	position: static;
+	opacity: 0.98;
 	z-index: 1;
-	}
-
-
-	.nav-h ul li a{
-
-		font-size: 26px;
-		list-style: none;
-		font-family: Montserrat;
-		list-style: none;
 
 	}
 
+	#view {
 
-	#col1 {
-
-	position: relative;
-	left: 80px;
-
-	}
-
-	#col3 {
-
-	position: relative;
-	right: 80px;
+	font-size: 16px;
+	padding-left: 20%;
+	padding-right: 20%;
 
 	}
 
+	.nav-h ul li {
+	  
+	  display: block;
+	  color: #FF6E86;
+	  font-weight: 300;
+	  list-style: none;
+	  padding-right: 25px;
+	  padding-left: 25px;
+	  padding-top: 30px;
+	  font-size: 22px;
+
+	}
+
+	.logo img {
+
+		width: 60%;
+
+	}
+
+	.splash h1 {
+
+		font-size: 20px;
+	}
+
+	#feat, #star {
+
+		font-size: 22px;
+
+	}
+
+	.am {
+
+		font-size: 20px;
+	}
+
+	.profile {
+
+		font-size: 16px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	#resume {
+
+		font-size: 22px;
+	}
+
+	.type h1 {
+
+		font-size: 22px;
+	}
+
+	#collab {
+
+		font-size: 18px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
 
 
+	#collab a {
+
+		font-size: 24px !important;
+		padding-top: 40px !important;
+	}
 
 
+	.logo img {
 
+		width: 60% !important;
+	}
+
+	.msg {
+
+		font-size: 20px;
+		padding-left: 60px;
+		padding-right: 60px;
+
+	}
+
+	.ema a {
+
+		font-size: 16px;
+	}
 
 }
 
